@@ -12,6 +12,7 @@ public class UnaryCalculation implements CalculationStrategy {
 	public Double doCalculation(Stack stack){
 		Double input1 = ((Double)stack.pop());
 		Double result = (input1.doubleValue())+1;
+		
 		return result;
 	}
 }
